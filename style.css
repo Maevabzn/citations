@@ -1,0 +1,97 @@
+header {
+  background-color: #84e6d4;
+  width: 1360px;
+  height: 749px;
+}
+.bleu {
+  background-color: #110b35;
+  width: 1360px;
+  height: 749px;
+}
+.rose {
+  background-color: #d790bf;
+  width: 683px;
+  height: 375px;
+}
+.vert {
+  background-color: #84e6d4;
+  width: 683px;
+  height: 375px;
+}
+.blanc {
+  background-color: white;
+  width: 683px;
+  height: 375px;
+}
+.jaune {
+  background-color: #ffdf6fd4;
+  width: 683px;
+  height: 375px;
+}
+h1 {
+    font-size: 144px;
+    text-align: center;
+    color: #110b35;
+  }
+h2 {
+  color: #d790bf;
+  text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center
+}
+
+.bleu p {
+  color: #d790bf;
+  text-align: center;
+}
+
+.premier {
+  width: 146px;
+  height: 143px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.deuxieme {
+  width: 374px;
+  height: 373px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.troisieme {
+  width: 374px;
+  height: 373px;
+}
+.quatrieme {
+  width: 146px;
+  height: 143px;
+}
+.cinquieme{
+    width: 105.04px;
+    height: 101.7px;
+    transform: rotate(16.96deg);
+}
+.sixieme{
+    width: 84px;
+    height: 86px;
+}
+.septieme{
+    width: 105.04px;
+    height: 101.7px;
+    transform: rotate(-14.59deg);
+
+}
+.un {
+    display: flex;
+}
+.deux{
+    display: flex;
+}
+img{
+    text-align: center;
+}
+.rose h3 p{
+    color: white;
+
+}
