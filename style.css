@@ -1,32 +1,32 @@
 header {
   background-color: #84e6d4;
-  width: 1360px;
-  height: 749px;
+  width: 100vw;
+  height: 100vh;
 }
 .bleu {
   background-color: #110b35;
-  width: 1360px;
-  height: 749px;
+  width: 100vw;
+  height: 100vh;
 }
 .rose {
   background-color: #d790bf;
-  width: 683px;
-  height: 375px;
+  width: 50vw;
+  height: 50vh;
 }
 .vert {
   background-color: #84e6d4;
-  width: 683px;
-  height: 375px;
+  width: 50vw;
+  height: 50vh;
 }
 .blanc {
   background-color: white;
-  width: 683px;
-  height: 375px;
+  width: 50vw;
+  height: 50vh;
 }
 .jaune {
   background-color: #ffdf6fd4;
-  width: 683px;
-  height: 375px;
+  width: 50vw;
+  height: 50vh;
 }
 h1 {
     font-size: 144px;
@@ -53,33 +53,51 @@ p{
   width: 146px;
   height: 143px;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  position: relative;
+  left: 134px;
+  top: -100px;
 }
 .deuxieme {
   width: 374px;
   height: 373px;
+  position: relative;
+  left: 760px;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .troisieme {
   width: 374px;
   height: 373px;
+  position: relative;
+  top: -100px;
 }
 .quatrieme {
   width: 146px;
   height: 143px;
+  position: relative;
+  top:-200px;
+  left:760px;
 }
 .cinquieme{
     width: 105.04px;
     height: 101.7px;
-    transform: rotate(16.96deg);
+    transform: rotate(16.96deg);  
+    position: relative;
+    top: 245px;
 }
 .sixieme{
     width: 84px;
     height: 86px;
+    position: relative;
+    top: 181px;
+    left: 520px;
 }
 .septieme{
     width: 105.04px;
     height: 101.7px;
     transform: rotate(-14.59deg);
+    position: relative;
+    top: 245px;
+    left:990px; 
 
 }
 .un {
@@ -91,7 +109,72 @@ p{
 img{
     text-align: center;
 }
-.rose h3 p{
-    color: white;
+.bleu{
+  font-size: 36px;
+}
+.multicolor {
+  font-size: 24px;
+}
 
+.rose{
+  color: white;
+}
+
+.jaune{
+color: white;
+}
+
+.blanc{
+color:#D790BF;
+}
+
+.vert{
+color:#D790BF;
+}
+
+.bleu p{
+  position: relative;
+  top:241px;
+}
+.bleu h2{
+  position: relative;
+  top:325px;
+}
+.rose p{
+ position: relative;
+ top:166px;
+}
+
+.jaune p{
+  position: relative;
+  top:166px;
+}
+
+.blanc p{
+  position: relative;
+  top:166px;
+}
+
+.vert p{ 
+  position: relative;
+  top:166px;
+}
+.rose h3{
+  position: relative;
+  top: 67px;
+}
+
+.jaune h3{
+  position: relative;
+  top: 67px;
+}
+
+.blanc h3{
+  position: relative;
+  top: 67px;
+}
+
+.vert h3{
+  position: relative;
+  top: 67px;
 }
